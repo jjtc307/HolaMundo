@@ -1,0 +1,92 @@
+* { margin: 0px; padding: 0px; }
+body {
+	background: #f5f5f5;
+	font-family: helvetica, arial, sans-serif;
+}
+#Contenedor{
+	background: #fff;
+	/*width: 50%;*/
+	margin: 0 auto;
+	margin-top: 50px;
+	border: solid 1px #ddd;
+	padding: 30px 40px 30px 40px;
+	display: table;
+}
+h1 { color: #555; margin: 0 0 20px 0; }
+/* .invalid { display: inline-block; !important; } */
+fieldset { border: none; float: left; display: block; }
+input, textarea, select {
+	padding: 8px;
+	margin: 4px 0 20px 0;
+	background: #fff;
+	border: 1px #ddd solid;
+	color: #555;
+	font-size: 18px;
+	width: 220px;
+	display: block;
+}
+textarea { width: 300px; height: 250px; }
+label { font-size: 20px; color: #666; }
+
+
+input:hover, textarea:hover { background: #eee; }
+
+input.submit {
+	width: 150px; color: #eee; margin-top: 10px; background-color: #0072c6; border: none;
+}
+
+input.submit:hover { background-color: #0072c6; }
+
+#izq{
+	float: left;
+	width: 250px;
+}
+#der{
+	float: right;
+	width: 250px;
+}
+
+.invalido {
+	background-image: url('../images/x.png');
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+
+.menu {
+	width: 100%; /* The menu should be the entire width of it's surrounding object, in this case the whole page */
+	background-color: #333;
+} /* dark grey bg */
+ 
+.menu ul {
+	margin: 0;
+	padding: 0;
+	float: left; }
+ 
+.menu ul li {
+	display: inline; } /* Makes the link all appear in one line, rather than on top of each other */
+ 
+.menu ul li a {
+	float: left; 
+	text-decoration: none; /* removes the underline from the menu text */
+	color: #fff; /* text color of the menu */
+	padding: 10.5px 11px; /* 10.5px of padding to the right and left of the link and 11px to the top and bottom */
+	background-color: #333; }
+ 
+.menu ul li a:visited { /* This bit just makes sure the text color doesn't change once you've visited a link */
+	color: #fff;
+	text-decoration: none; }
+ 
+.menu ul li a:hover, .menu ul li .current {
+	color: #fff;
+	background-color:#000000; } /* change the background color of the list item when you hover over it */
+
+.active { color: red; }
+
+.segundo { clear:both; }
+#detalles { float:left; width: 100%; margin-right: 10px; }
+#mensaje { float: right; width: 45%; }
+ol li { list-style: none; padding-bottom: 5px; }
+ol li a { text-decoration: none; font-size: 20px; color: #666; }
+
+.liga_tickets { text-decoration:inherit; color:#000; }
